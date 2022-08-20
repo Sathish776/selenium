@@ -39,7 +39,11 @@ public class Signup {
 		robot.click();
 		WebElement signup = driver.findElement(By.xpath("//div[text()='Sign up']"));
 		signup.click();
+	}
 
+		public void hello(){
+			System.out.println("hai");
+		}
 
 	}
-}
+
