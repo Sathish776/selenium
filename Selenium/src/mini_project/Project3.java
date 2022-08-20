@@ -29,7 +29,11 @@ public class Project3 {
 				for (WebElement prices : allprice) {
 					String text2 = prices.getText();
 					System.out.println(text2);
+				}
 					
 				}
+				public void hello() {
+					System.out.println("sathesh");
+				
 				
 		}}
